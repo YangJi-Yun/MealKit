@@ -1,0 +1,132 @@
+:root {
+  /* color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #283593;
+  --light-blue-color: #5f5fc4;
+  --dark-blue-color: #001064;
+  --dark-grey-color: #4c4c4c;
+  --grey-color: #666666;
+  --light-grey-color: #dddddd;
+  --bright-grey-color: #fafafa;
+  --orange-color: #f9623a;
+
+  /* font-size */
+  --font-large: 20px;
+  --font-medium: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+}
+
+* {
+  font-family: noto sans, malgun gothic, AppleGothic, dotum, sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  float: left;
+}
+
+.serve_event img {
+  width: 100%;
+}
+.serve_lnb {
+  width: 100%;
+}
+.serve_lnb .tit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  font-size: var(--font-large);
+  padding-top: 30px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.serve_product {
+  width: 95%;
+  margin: auto;
+}
+.serve_product .list_ability {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: var(--font-micro);
+}
+.serve_product .list > li {
+  border-right: 1px solid var(--light-grey-color);
+  padding: 0 10px;
+  color: var(--grey-color);
+}
+.serve_product .list > li:nth-child(1) {
+  color: var(--black-color);
+}
+
+/* product_list */
+.products {
+  margin: 0;
+}
+.products .product_list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product_list .item {
+  margin: 50px 40px;
+}
+.product_list .item .thumbs {
+  position: relative;
+}
+.product_list .item .thumbs img {
+  width: 400px;
+  height: 500px;
+}
+.product_list .item .thumbs .shopping_cart {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: 3px solid var(--blue-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue-color);
+}
+.material-icons-outlined {
+  font-size: 30px;
+  color: var(--white-color);
+}
+.product_list .item .info {
+  display: flex;
+  flex-direction: column;
+}
+.product_list .item .info > a {
+  font-size: var(--font-medium);
+}
+.product_list .item .info .cost {
+  font-size: var(--font-medium);
+}
+.product_list .item .info .cost > span {
+  color: var(--orange-color);
+  font-weight: bolder;
+}
+.product_list .item .info .desc {
+  color: var(--grey-color);
+}
+.pasing{
+	text-align: center;
+}

@@ -1,0 +1,137 @@
+:root {
+  /* color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #283593;
+  --light-blue-color: #5f5fc4;
+  --dark-blue-color: #001064;
+  --dark-grey-color: #4c4c4c;
+  --grey-color: #666666;
+  --light-grey-color: #dddddd;
+  --main-grey-color: #f7f7f7;
+  --bright-grey-color: #fafafa;
+  --orange-color: #f9623a;
+  --purple-color: #dee1f0;
+
+  /* font-size */
+  --font-large: 20px;
+  --font-medium: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+}
+* {
+  font-family: noto sans, malgun gothic, AppleGothic, dotum, sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+.manager_page {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+/* aside */
+.snb {
+  width: 300px;
+  margin-right: 50px;
+}
+.snb h2 {
+  padding: 30px 0;
+  margin: 0;
+}
+.list_menu {
+  margin: 0;
+  padding: 0;
+}
+.list_menu li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--light-grey-color);
+  border-bottom: none;
+  padding: 20px;
+  font-size: var(--font-medium);
+  font-weight: bolder;
+  color: var(--grey-color);
+}
+.list_menu li:last-child {
+  border-bottom: 1px solid var(--light-grey-color);
+}
+.list_menu li:hover {
+  background-color: var(--main-grey-color);
+  color: var(--blue-color);
+}
+.board {
+  min-width: 1200px;
+}
+.user_tit{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 32px 0;
+}
+.user_tit h3 {
+  margin: 0;
+  margin-right: 10px;
+}
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.search input {
+  height: 30px;
+  max-height: 40px;
+  width: 400px;
+  border: 1px solid var(--purple-color);
+  float: left;
+}
+.search .icon {
+  float: left;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  max-height: 36px;
+  width: 36px;
+  font-size: 20px;
+  text-align: center;
+}
+.list_result{
+	margin-bottom: 6px;
+}
+.contents {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: var(--font-large);
+}
+table {
+  border-collapse: collapse;
+  border-top: 2px solid var(--black-color);
+  width: 100%;
+  min-width: 800px;
+  margin-bottom: 20px;
+}
+td {
+  border: 1px solid var(--purple-color);
+  width: 100px;
+  padding-left: 10px;
+  border-right: none;
+}
+td:nth-child(2n + 1) {
+  height: 50px;
+  background-color: var(--purple-color);
+}
+.pasing {
+  text-align: center;
+}

@@ -1,0 +1,121 @@
+:root {
+  /* color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #283593;
+  --light-blue-color: #5f5fc4;
+  --dark-blue-color: #001064;
+  --dark-grey-color: #4c4c4c;
+  --grey-color: #666666;
+  --light-grey-color: #dddddd;
+  --main-grey-color: #f7f7f7;
+  --bright-grey-color: #fafafa;
+  --orange-color: #f9623a;
+
+  /* font-size */
+  --font-large: 20px;
+  --font-medium: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+}
+
+* {
+  font-family: noto sans, malgun gothic, AppleGothic, dotum, sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+.service_center {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 80px auto;
+  margin-top: 80px;
+}
+/* aside */
+.snb {
+  width: 300px;
+  margin-right: 50px;
+  /* float: left; */
+}
+.snb h2 {
+  padding: 30px 0;
+  margin: 0;
+}
+.list_menu {
+  margin: 0;
+  padding: 0;
+}
+.list_menu li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--light-grey-color);
+  border-bottom: none;
+  padding: 20px;
+  font-size: var(--font-medium);
+  font-weight: bolder;
+  color: var(--grey-color);
+}
+.list_menu li:last-child {
+  border-bottom: 1px solid var(--light-grey-color);
+}
+.list_menu li:hover {
+  background-color: var(--main-grey-color);
+  color: var(--blue-color);
+}
+/* board */
+.board {
+  min-width: 1200px;
+}
+.tit {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 32px 0;
+}
+.tit h3 {
+  margin: 0;
+  margin-right: 10px;
+}
+.tit span {
+  color: var(--grey-color);
+  font-size: var(--font-medium);
+}
+
+table {
+  width: 80%;
+  border-top: 2px solid var(--blue-color);
+  border-bottom: 1px solid var(--black-color);
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 1px solid var(--light-grey-color);
+  height: 50px;
+  text-align: center;
+}
+tr:nth-child(1) {
+  border-bottom: 1px solid var(--black-color);
+}
+th:nth-child(1) {
+  width: 10%;
+}
+th:nth-child(3) {
+  width: 10%;
+}
+th:nth-child(4) {
+  width: 10%;
+}
+th:nth-child(5) {
+  width: 10%;
+}
+.pasing{
+	text-align: center;
+}

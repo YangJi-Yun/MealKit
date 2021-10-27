@@ -1,0 +1,66 @@
+:root {
+  /* color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #283593;
+  --light-blue-color: #5f5fc4;
+  --dark-blue-color: #001064;
+  --dark-grey-color: #4c4c4c;
+  --grey-color: #666666;
+  --light-grey-color: #dddddd;
+  --bright-grey-color: #fafafa;
+  --orange-color: #f9623a;
+
+  /* font-size */
+  --font-large: 20px;
+  --font-medium: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+}
+.wrap {
+  width: 100%;
+  margin: 80px 0;
+}
+h3 {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+.icon {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+.icon i {
+  font-size: 50px;
+  color: var(--blue-color);
+}
+p {
+  width: 100%;
+  text-align: center;
+  font-size: var(--font-medium);
+  color: var(--blue-color);
+  font-weight: bold;
+}
+.fine_id,
+.fine_pw {
+  width: 100%;
+  text-align: center;
+  font-size: var(--font-small);
+}
+.btn {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+input[type="button"] {
+  width: 320px;
+  height: 50px;
+  margin-top: 20px;
+  font-size: var(--font-large);
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  border-radius: 5px;
+  border: none;
+}

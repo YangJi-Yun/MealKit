@@ -1,0 +1,92 @@
+:root {
+  /* color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #283593;
+  --light-blue-color: #5f5fc4;
+  --dark-blue-color: #001064;
+  --dark-grey-color: #4c4c4c;
+  --grey-color: #666666;
+  --light-grey-color: #dddddd;
+  --bright-grey-color: #fafafa;
+  --orange-color: #f9623a;
+
+  /* font-size */
+  --font-large: 20px;
+  --font-medium: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+}
+
+* {
+  font-family: noto sans, malgun gothic, AppleGothic, dotum, sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0;
+}
+h4 {
+  padding: 30px 0;
+  text-align: center;
+}
+input[type="text"],
+input[type="password"] {
+  width: 400px;
+  height: 60px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(179, 178, 174, 0.5);
+  border-radius: 5px;
+}
+input::placeholder {
+  color: rgba(179, 178, 174, 0.5);
+  padding-left: 10px;
+}
+.checkbox_save span {
+  float: right;
+}
+.checkbox_save span a {
+  padding: 0 5px;
+  border-right: 1px solid var(--black-color);
+}
+.checkbox_save span a:nth-child(2) {
+  border: none;
+}
+.checkbox_save span a:hover {
+  color: var(--blue-color);
+}
+input[type="checkbox"] {
+  padding-left: 2px;
+}
+input[type="submit"] {
+  width: 400px;
+  height: 60px;
+  margin-top: 30px;
+  font-size: var(--font-large);
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  border-radius: 5px;
+  border: none;
+}
+input[type="button"] {
+  width: 400px;
+  height: 60px;
+  margin-top: 10px;
+  font-size: var(--font-medium);
+  background-color: var(--white-color);
+  color: var(--blue-color);
+  border-radius: 5px;
+  border: 2px solid var(--blue-color);
+}
