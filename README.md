@@ -11,3 +11,5 @@
 3. JSP<br>
 4. MySQL<br>
 
+## 주요 기능
+![프로젝트_](https://user-images.githubusercontent.com/88270330/139069508-f8035a68-cb92-478c-b18d-5258be70b3b6.gif)
