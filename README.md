@@ -6,8 +6,8 @@
 * 상품 판매에서부터 이용자까지 운영자가 관리할 수 있는 웹사이트<br>
 
 ## Environment <br>
-1. Apache Tomcat <br>
-2. Eclipse IDE for Enterprise Java Developers<br>
+1. Apache Tomcat 9.0 <br>
+2. Eclipse IDE for Enterprise Java Developers(eclipse-jee-2021-06-R-win32-x86_64)<br>
 3. JSP<br>
 4. MySQL<br>
 
