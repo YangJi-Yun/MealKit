@@ -31,13 +31,20 @@
 다양한 기능을 포함하고 있는 쇼핑몰을 제작, 배운 언어와 기술들을 폭넓게 활용하는데 의의를 두었습니다.
 
 ## Technology Stack
-* Frontend : html, css, js, jQuery, AJax, BootStrap
-* <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp 
+* Frontend : 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/>
+<img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=Bootstrap&logoColor=black"/>
 *
-* Backend : java, jsp, servlets
-* Database : MySql
-* Deployment : 이클립스
+* Backend : 
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=black"/>
+<img src="https://img.shields.io/badge/Servelets'&'Jsp-007396?style=flat-square&logo=Servelets'&'Jsp&logoColor=black"/>
+* Database : <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=black"/>
+* Deployment : 
+<img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&logo=Visual Studio&logoColor=black"/>
+<img src="https://img.shields.io/badge/Eclipse IDE-2C2255?style=flat-square&logo=Eclipse IDE&logoColor=black"/>
 
 ## Environment
 * Apache Tomcat 9.0
