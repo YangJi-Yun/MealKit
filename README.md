@@ -31,8 +31,8 @@
 다양한 기능을 포함하고 있는 쇼핑몰을 제작, 배운 언어와 기술들을 폭넓게 활용하는데 의의를 두었습니다.
 
 ## Technology Stack
-* Frontend : html, css, js, jQuery, AJax, BootStrap<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp 
-https://img.shields.io/badge/github-GIVEME--STAR-red
+* Frontend : html, css, js, jQuery, AJax, BootStrap
+* <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp 
 <img src="https://img.shields.io/badge/html-E34F26?style=flat-square&logo=html&logoColor=white"/>
 *
 * Backend : java, jsp, servlets
