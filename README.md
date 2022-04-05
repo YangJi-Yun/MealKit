@@ -8,7 +8,7 @@
 
 ### *주요 기능
 * MENU : 관리자 메뉴 / 유저 메뉴 / 메인페이지 / 메뉴페이지 / 상품페이지 / 상품 검색
-* MANAGER : 회원 관리 및 상품 관리 / 공지사항 등록 및 관리
+* MANAGER : 회원 관리 및 상품 관리 / 공지사항 등록 및 관![매니저](https://user-images.githubusercontent.com/88270330/161729465-f66857af-4ec1-4af5-b466-cc1df0314bb1.gif)
 * USER : 회원가입 / 로그인 / 회원정보 수정 / 장바구니 / Q&A 등록 / 공지사항 확인
 ![프로젝트_](https://user-images.githubusercontent.com/88270330/139069508-f8035a68-cb92-478c-b18d-5258be70b3b6.gif)
 
