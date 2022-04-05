@@ -10,7 +10,7 @@
 * MENU : 관리자 메뉴 / 유저 메뉴 / 메인페이지 / 메뉴페이지 / 상품페이지 / 상품 검색
 ![메뉴](https://user-images.githubusercontent.com/88270330/161735647-4d7cbd63-9bf2-4d5a-be11-777666bdaa12.gif)
 * MANAGER : 회원 관리 및 상품 관리 / 공지사항 등록 및 관리
-
+![매니저](https://user-images.githubusercontent.com/88270330/161735982-df9057af-e394-49bc-a59b-b2d57576b736.gif)
 * USER : 회원가입 / 로그인 / 회원정보 수정 / 장바구니 / Q&A 등록 / 공지사항 확인
 ![프로젝트_](https://user-images.githubusercontent.com/88270330/139069508-f8035a68-cb92-478c-b18d-5258be70b3b6.gif)
 
